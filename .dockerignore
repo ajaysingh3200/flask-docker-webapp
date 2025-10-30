@@ -1,0 +1,19 @@
+.venv
+venv
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+.env
+.git
+.gitignore
+.vscode
+Dockerfile
+docker-compose*.yml
+.idea
+
+# OS files
+Thumbs.db
+.DS_Store
