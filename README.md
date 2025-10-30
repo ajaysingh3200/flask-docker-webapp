@@ -86,6 +86,8 @@ If you want the full raw chat transcript (including tool outputs), tell me and I
 
 - [Development Guide](docs/DEVELOPMENT.md) - Detailed setup and development instructions
 - [Contributing Guidelines](docs/CONTRIBUTING.md) - How to contribute to this project
+- [API Documentation](docs/API.md) - Complete API reference and future endpoints
+- [Deployment Guide](docs/DEPLOYMENT.md) - Deployment instructions for various platforms
 
 ## Requirements
 
