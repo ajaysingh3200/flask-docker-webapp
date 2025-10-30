@@ -1,8 +1,22 @@
-# my-webapp
+# Flask Docker Webapp
 
-Minimal Flask app containerized with Docker.
+A minimal Flask web application containerized with Docker. This project demonstrates how to containerize a Python Flask application using Docker, with proper configuration and best practices.
+
+[![Python](https://img.shields.io/badge/Python-3.11-blue.svg)](https://www.python.org/downloads/)
+[![Flask](https://img.shields.io/badge/Flask-2.3.2-green.svg)](https://flask.palletsprojects.com/)
+[![Docker](https://img.shields.io/badge/Docker-Required-blue.svg)](https://www.docker.com/get-started)
 
 GitHub Repository: https://github.com/ajaysingh3200/flask-docker-webapp
+
+## Features
+
+- Minimal Flask web application
+- Docker containerization
+- Production-ready configuration
+- Easy deployment
+- Comprehensive documentation
+
+## Quick Start
 
 How to build and run (Windows PowerShell):
 
@@ -53,3 +67,46 @@ Notes:
 - Building and running the Docker image requires Docker to be installed and running on your machine. If you want, I can run the build and run commands and capture the output here (you must have Docker running in the environment where these commands will be executed).
 
 If you want the full raw chat transcript (including tool outputs), tell me and I can append that as well or save it to a separate log file.
+
+## Project Structure
+
+```
+.
+├── app.py              # Main Flask application
+├── requirements.txt    # Python dependencies
+├── Dockerfile         # Docker image configuration
+├── .dockerignore     # Files excluded from Docker context
+├── README.md         # This file
+└── docs/             # Additional documentation
+    ├── DEVELOPMENT.md    # Development guide
+    └── CONTRIBUTING.md   # Contributing guidelines
+```
+
+## Documentation
+
+- [Development Guide](docs/DEVELOPMENT.md) - Detailed setup and development instructions
+- [Contributing Guidelines](docs/CONTRIBUTING.md) - How to contribute to this project
+
+## Requirements
+
+- Python 3.11 or higher
+- Docker Desktop or Docker Engine
+- Git (for development)
+
+## Local Development
+
+See the [Development Guide](docs/DEVELOPMENT.md) for detailed instructions on setting up a local development environment.
+
+## Contributing
+
+We welcome contributions! Please see our [Contributing Guidelines](docs/CONTRIBUTING.md) for details on how to submit pull requests, report issues, and contribute to the project.
+
+## License
+
+This project is open source and available under the [MIT License](https://opensource.org/licenses/MIT).
+
+## Support
+
+If you encounter any problems or have suggestions:
+1. Check the [Development Guide](docs/DEVELOPMENT.md)
+2. Search for or create an issue in the GitHub repository
